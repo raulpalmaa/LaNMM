@@ -1,6 +1,10 @@
-#####Calculate the Lyapunov exponents of the LaNMM
-#####Check https://juliadynamics.github.io/ChaosTools.jl/dev/lyapunovs/
-#####Adapted from Clusella
+############################################
+#Julia script for the Lyapunov exponents of the LaNMM.
+#Read the docs: https://juliadynamics.github.io/ChaosTools.jl/dev/lyapunovs/
+############################################
+#run with 
+#$: julia lanmm_ly.py external_input1, external_input2
+############################################
 using ChaosTools, StaticArrays, UnPack, NPZ, PyPlot, DynamicalSystems, OrdinaryDiffEq
 r0 = 2.5
 va = 6.0
