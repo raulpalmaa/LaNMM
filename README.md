@@ -10,5 +10,3 @@ If you use this material or any part of it in your work, please cite this paper 
 - A minimal AUTO code bifur_lanmm.py returns the bifurcation diagram of the LaNMM as a function of the external input to the pyramidal population 1 and plots the results with Python's matplotlib. This script relies on the AUTO files c.lanmm and lanmm.f90.
 
 
-
-
