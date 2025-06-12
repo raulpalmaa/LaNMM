@@ -119,32 +119,3 @@ tandy = TangentDynamicalSystem(nmm; J = tandy_LaNMM)
 
 ly =lyapunovspectrum(tandy, 2000,Δt=0.5,Ttr=2000)[1:2]
 println(ly)
-
-
-
-#ngping = CoupledODEs(ping_rule, u0, pp,diffeq = (alg =RK4(),dt=1e-3,adaptive=false))
-#transient = 2000
-#ly =lyapunovspectrum(ngping, 2000,Δt=2,Ttr=transient,show_progress=true)
-#println("Lyapunov: ",ly)
-
-#traj=trajectory(lanmm, 1000 ;Δt=1e-4,Ttr=1000)
-
-#plot(traj[1][:,1])
-#plot(traj[1][:,2])
-#show()
-#=
-ts = 0.5:0.5:1.0;
-
-λs = zeros(length(ts), 2)
-
-
-
-for i in eachindex(ts)
-    tandy = TangentDynamicalSystem(nmm; J = tandy_LaNMM)
-    λs[i, :] .= lyapunovspectrum(tandy, 10000,Δt=ts[i],Ttr=1000)[1:2]
-end
-
-println(λs[:,1])
-plot(ts,λs[:,1], "ro")
-show()
-=#
