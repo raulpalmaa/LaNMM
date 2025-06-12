@@ -1,8 +1,10 @@
 ############################################
 #Auto07p script for the bifucation diagram of the LaNMM.
 #Plots are handled with Python's matplotlib.
-#run with 
-#$: auto bifur_lanmm.py
+#Read the docs: https://github.com/auto-07p/auto-07p
+#Tutorial: https://github.com/pclus/auto-tutorial
+############################################
+#run with #$: auto bifur_lanmm.py
 ############################################
 import numpy as np
 import matplotlib.pyplot as plt
