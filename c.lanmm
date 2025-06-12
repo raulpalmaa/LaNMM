@@ -1,0 +1,10 @@
+unames = {1: 'y0', 2: 'y1', 3: 'y2', 4: 'y3', 5: 'y4', 6: 'y5', 7: 'y6', 8: 'y7', 9: 'y8', 10: 'y9'}
+parnames = {1: 'p1', 2: 'p2',3: 'y1_min', 4: 'y1_max',5: 'y2_min', 6: 'y2_max', 7: 'vp1', 8: 'vp2'}
+NDIM=   10, IPS =   1, IRS =   0, ILP =   1
+ICP =  ['p1','p2',3,4,'vp1','vp2']
+NTST=  150, NCOL=   7, IAD =   3, ISP =   1, ISW = 1, IPLT= 0, NBC= 0, NINT= 0
+NMX=  1000, NPR=  500, MXBF=  -1, IID =   2, ITMX= 8, ITNW= 7, NWTN= 3, JAC= 1
+EPSL= 1e-07, EPSU = 1e-07, EPSS = 1e-05
+DS  =   0.01, DSMIN=  0.00001, DSMAX=  0.1, IADS=   1
+NPAR = 2, THL =  {}, THU =  {}
+UZR =  { }
